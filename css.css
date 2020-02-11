@@ -1,0 +1,90 @@
+
+html, body {
+	pading:0;
+	margin:0;
+}
+
+body{
+background-image: url(img/background/back.png)
+}
+
+#primery-menu{
+	font-family: 'Pacifico', cursive;
+	background-color:fff;
+	height:10% ;
+	width:1141px;
+	margin:0 auto;
+	position:realitiv;
+	text-align: center;
+	opacity : 0.9;
+}
+#primery-menu > ul {
+	hight: 0px;
+	line-height:0px;
+	pading:0;
+	margin:0;
+	left:0;
+	top:0;
+	margin:absolute;
+	
+}
+#primery-menu > ul >li {
+	display: inline-block;
+	list-style: none;
+	margin-right:35px;
+}
+#primery-menu > ul >li a {
+	color: #c39662;
+	text-decoration:none;
+	
+}
+#primery-menu > ul > #logo{
+	hight: 50px;
+	width: 350px;
+	position:relative;
+}
+@font-face{
+	font-family:Magneto;
+	src: url(Magneto-Bold.ttf);
+	font-style:normal;
+	font-weight:normal;
+}
+#primery-menu > ul >li >p {
+	color: #c39662;
+	font-family:Magneto;
+	font-size:50px;
+	
+}
+
+#contrent-wrapper{
+
+	background-color:fff;
+	height:900px ;
+	width:1141px;
+	margin:0 auto;
+	position:realitiv;
+	text-align: center;
+	opacity : 0.9;
+	font-family: 'Pacifico', cursive;
+	color: #c39662;
+	
+}
+#content {
+	width:75%;
+
+	float:left;
+	font-family: 'Pacifico', cursive;
+	color: #c39662;
+	
+	
+}
+#sidebar{
+	width:25%;
+	float:left;
+	font-family: 'Pacifico', cursive;
+	color: #c39662;
+}
+
+.clear{
+	clear:both;
+}
